@@ -1,0 +1,40 @@
+2024-02-01 01:04:36.073 [info] 
+
+
+
+
+2024-02-01 01:04:36.073 [info] Installing extensions...
+2024-02-01 01:04:36.073 [info] Extension host agent started.
+2024-02-01 01:04:36.074 [info] Started initializing default profile extensions in extensions installation folder. file:///config/.vscode-server-insiders/extensions
+2024-02-01 01:04:36.112 [debug] ComputeTargetPlatform: linux-x64
+2024-02-01 01:04:36.131 [info] Completed initializing default profile extensions in extensions installation folder. file:///config/.vscode-server-insiders/extensions
+2024-02-01 01:04:36.136 [debug] ComputeTargetPlatform: linux-x64
+2024-02-01 01:04:36.218 [error] Error while installing extensions: getaddrinfo EAI_AGAIN marketplace.visualstudio.com
+2024-02-01 01:04:36.220 [error] Failed: getaddrinfo EAI_AGAIN marketplace.visualstudio.com
+    at R.B (/config/.vscode-server-insiders/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937-insider/out/vs/server/node/server.main.js:169:105286)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async R.z (/config/.vscode-server-insiders/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937-insider/out/vs/server/node/server.main.js:169:102220)
+    at async R.getExtensions (/config/.vscode-server-insiders/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937-insider/out/vs/server/node/server.main.js:169:99271)
+    at async $.h (/config/.vscode-server-insiders/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937-insider/out/vs/server/node/server.main.js:141:1545)
+    at async $.installExtensions (/config/.vscode-server-insiders/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937-insider/out/vs/server/node/server.main.js:140:10157)
+2024-02-01 01:04:36.231 [debug] No uninstalled extensions found.
+2024-02-01 01:04:36.618 [info] [127.0.0.1][8c111f71][ManagementConnection] New connection established.
+2024-02-01 01:04:36.833 [info] Log level changed to info
+2024-02-01 01:04:37.036 [info] [127.0.0.1][1e03f3f0][ExtensionHostConnection] New connection established.
+2024-02-01 01:04:37.051 [info] [127.0.0.1][1e03f3f0][ExtensionHostConnection] <4764> Launched Extension Host Process.
+2024-02-01 04:59:45.352 [info] [127.0.0.1][1e03f3f0][ExtensionHostConnection] <4764> Extension Host Process exited with code: 0, signal: null.
+2024-02-01 06:02:00.322 [info] [127.0.0.1][16717aac][ManagementConnection] New connection established.
+2024-02-01 06:02:01.097 [info] [127.0.0.1][8d9e2d1a][ExtensionHostConnection] New connection established.
+2024-02-01 06:02:01.116 [info] [127.0.0.1][8d9e2d1a][ExtensionHostConnection] <87780> Launched Extension Host Process.
+2024-02-01 06:02:46.067 [info] [127.0.0.1][8d9e2d1a][ExtensionHostConnection] <87780> Extension Host Process exited with code: 0, signal: null.
+2024-02-01 06:03:23.256 [info] [127.0.0.1][821b28d7][ManagementConnection] New connection established.
+2024-02-01 06:03:24.018 [info] [127.0.0.1][75e3f8e5][ExtensionHostConnection] New connection established.
+2024-02-01 06:03:24.205 [info] [127.0.0.1][75e3f8e5][ExtensionHostConnection] <88926> Launched Extension Host Process.
+2024-02-01 06:05:22.691 [info] Getting Manifest... ms-azuretools.vscode-docker
+2024-02-01 06:05:24.418 [info] Getting Manifest... ms-azuretools.vscode-docker
+2024-02-01 06:05:27.712 [error] Failed to install extension. ms-azuretools.vscode-docker
+2024-02-01 06:05:27.713 [error] Error: getaddrinfo EAI_AGAIN ms-azuretools.gallery.vsassets.io
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-02-01 06:05:34.433 [error] Failed to install extension. ms-azuretools.vscode-docker
+2024-02-01 06:05:34.433 [error] Error: getaddrinfo EAI_AGAIN ms-azuretools.gallery.vsassets.io
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
